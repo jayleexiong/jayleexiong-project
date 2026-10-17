@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction to Basic CSS</title>
+    <style>
+      body {
+        background-color: antiquewhite;
+        color: red;
+      }
+      .my-p2 {
+        white-space: nowrap;
+        overflow-x: auto;
+      }
+      .my-h1 {
+        color: blue;
+        text-align: center;
+      }
+      .my-p1 {
+        color: aqua;
+        text-align: center;
+      }
+      header {
+        border-bottom: 1px solid red;
+      }
+      h2 {
+        color: blueviolet;
+        border-left: 3px solid yellow;
+      }
+      ul {
+        list-style: square;
+        padding-left: 0px;
+        list-style-position: inside;
+        margin-left: 0px;
+      }
+      .section-end {
+        background-color: aqua;
+        padding: 5px 0px;
+        border-radius: 5px;
+        border: 1px solid red;
+      }
+      .footer {
+        text-align: center;
+        border-top: 1px solid black;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="my-h1">Welcome to CSS Basics</h1>
+      <p class="my-p1">Learn how Cascading Style Sheets bring HTML to life.</p>
+    </header>
+    <section>
+      <h2>1. What is CSS?</h2>
+      <p class="my-p2">
+        While <strong>HTML</strong> provides the structure of a webpage (like
+        the skeleton), <strong>CSS (Cascading Style Sheets)</strong> handles the
+        presentation, styling, layout, and colors (like the skin, clothes, and
+        design).
+      </p>
+    </section>
+    <section>
+      <div>
+        <h2>2. Essential CSS Properties</h2>
+        <p>
+          Here are some of the most common properties you will use every day:
+        </p>
+        <ul>
+          <li><code>color</code>: Changes the text color.</li>
+          <li>
+            <code>background-color</code>: Sets the background color behind an
+            element.
+          </li>
+          <li>
+            <code>font-size</code>: Controls how large or small text appears.
+          </li>
+          <li>
+            <code>padding</code>: Adds space <em>inside</em> an element around
+            its content.
+          </li>
+          <li>
+            <code>margin</code>: Adds space <em>outside</em> an element to
+            separate it from others.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-end">
+      <div>
+        <h3 style="color: green">Did you know?</h3>
+        <p>
+          CSS allows your website to adapt to different screen sizes, ensuring
+          your pages look great on both desktop computers and mobile phones!
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>&copy; 2026 Web Development Learning Guide. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

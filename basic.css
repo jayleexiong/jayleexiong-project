@@ -1,0 +1,28 @@
+body {
+  background-color: yellow;
+  text-align: center;
+  font-family: "Courier New", monospace;
+}
+h1 {
+  color: red;
+  font-size: 50px;
+  font-weight: 100;
+}
+h2 {
+  color: aqua;
+  font-size: 30px;
+  font-width: 50;
+}
+p {
+  color: blue;
+  font-size: 20px;
+}
+button {
+  margin: 15px auto;
+
+  background-color: grey;
+  color: blue;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: text;
+}
